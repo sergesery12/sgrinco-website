@@ -1,1 +1,33 @@
-body { font-family: Arial, sans-serif; background-color: #f4f4f4; }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0096C7;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 150px;
+    margin-top: 10px;
+}
+
+.services {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
