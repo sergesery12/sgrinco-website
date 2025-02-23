@@ -3,26 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S-GRINCO</title>
+    <title>S-GRINCO - Conseil & Énergie</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <img src="logo.jpg" alt="Logo S-GRINCO" class="logo">
-        <h1>Bienvenue sur S-GRINCO</h1>
-        <p>Votre partenaire en gestion et énergies renouvelables.</p>
-    </header>
-    <main>
-        <section class="services">
-            <h2>Nos Services</h2>
+        <nav>
+            <div class="logo">S-GRINCO</div>
             <ul>
-                <li>Conseil en gestion</li>
-                <li>Études et installation d’équipements solaires</li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </section>
-    </main>
+        </nav>
+    </header>
+    
+    <section id="accueil" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Bienvenue chez S-GRINCO</h1>
+            <p>Expert en conseil et solutions énergétiques durables</p>
+            <a href="#services" class="btn">Découvrir nos services</a>
+        </div>
+    </section>
+    
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <img src="images/conseil.jpg" alt="Conseil en gestion">
+                <h3>Conseil en gestion</h3>
+                <p>Accompagnement stratégique pour optimiser vos investissements et projets.</p>
+            </div>
+            <div class="service">
+                <img src="images/solaire.jpg" alt="Énergie solaire">
+                <h3>Installation solaire</h3>
+                <p>Solutions photovoltaïques adaptées à vos besoins énergétiques.</p>
+            </div>
+            <div class="service">
+                <img src="images/innovation.jpg" alt="Innovation énergétique">
+                <h3>Innovation énergétique</h3>
+                <p>Développement de nouvelles technologies pour une énergie durable.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Nous sommes disponibles pour répondre à toutes vos questions.</p>
+        <form>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <div class="contact-info">
+            <p><strong>Email :</strong> contact@sgrinco.com</p>
+            <p><strong>Téléphone :</strong> +221 77 717 80 53</p>
+            <p><strong>Adresse :</strong> Dakar, Sénégal</p>
+        </div>
+    </section>
+    
     <footer>
-        <p>Contact : +221 77 717 80 53 | +221 33 856 97 25</p>
+        <p>&copy; 2025 S-GRINCO - Tous droits réservés</p>
     </footer>
 </body>
 </html>
